@@ -65,6 +65,6 @@ jobs:
           app-name: 'func-py-ep'
           slot-name: 'Production'
           package: ${{ env.AZURE_FUNCTIONAPP_PACKAGE_PATH }}
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_AEC2B3FE6BEB492BA16A821671E0941F }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_E85F377B198242C1A0B40611C4C2F433 }}
           scm-do-build-during-deployment: true
           enable-oryx-build: true
